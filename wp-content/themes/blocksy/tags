@@ -15,7 +15,6 @@ $1	static/js/options/options/typography/helpers.js	/^			$1$/;"	V
 0	static/js/options/options/ct-border.js	/^										0,$/;"	V
 0	static/js/options/options/ct-slider.js	/^									0,$/;"	V
 0	static/js/options/options/ct-spacing.js	/^										0,$/;"	V
-1	static/js/customizer/sync/template-parts/content-loop.js	/^									1$/;"	V
 1	static/js/events.js	/^            1$/;"	V
 10	static/js/frontend/flexy.js	/^						10$/;"	V
 10	static/js/frontend/search-implementation.js	/^						10$/;"	V
@@ -1473,6 +1472,7 @@ dynamicOptionTypes	static/js/options/GenericOptionType.js	/^	const dynamicOption
 dynamic_css	inc/components/customizer-builder.php	/^	public function dynamic_css($panel_type = 'header', $args = []) {$/;"	f
 dynamic_height_output	inc/components/gallery.php	/^		$dynamic_height_output = 'data-height="dynamic"';$/;"	v
 dynamic_height_output	inc/components/gallery.php	/^	$dynamic_height_output = '';$/;"	v
+e	static/js/customizer/sync/template-parts/content-loop.js	/^						e$/;"	V
 early_init	inc/manager.php	/^	private function early_init() {$/;"	f
 easeInOutQuad	static/js/frontend/back-to-top-link.js	/^			const easeInOutQuad = (t, b, c, d) => {$/;"	F
 easing	static/js/customizer/panels-builder/placements/sortablejs.js	/^      easing: null,$/;"	P
@@ -4423,7 +4423,7 @@ tablet_css	inc/dynamic-css.php	/^		$tablet_css = trim($tablet_css->build_css_str
 tablet_css	inc/dynamic-css.php	/^	$tablet_css = new Blocksy_Css_Injector();$/;"	v
 tag	inc/classes/class-ct-attributes-parser.php	/^		$tag = 'img'$/;"	v
 tag	inc/components/breadcrumbs.php	/^			$tag = [];$/;"	v
-tag	inc/panel-builder/header/logo/view.php	/^	$tag = 'h1';$/;"	v
+tag	inc/panel-builder/header/logo/view.php	/^		$tag = 'h1';$/;"	v
 tag	inc/panel-builder/header/logo/view.php	/^	$tag = blocksy_default_akg('site_title_wrapper', $atts, 'h1');$/;"	v
 tag	inc/panel-builder/header/logo/view.php	/^$tag = 'span';$/;"	v
 tag	inc/template-tags.php	/^function blocksy_entry_title( $tag = 'h2' ) {$/;"	v

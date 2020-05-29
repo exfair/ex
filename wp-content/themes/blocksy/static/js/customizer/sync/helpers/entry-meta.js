@@ -38,7 +38,9 @@ const renderLabel = (el, label, has_meta_label) => {
 }
 
 const addDividers = ({ el, divider, tagName = 'a' }) => {
-	removeAllTextNodes(el)
+	if (el) {
+		removeAllTextNodes(el)
+	}
 
 	el &&
 		Array.from(el.children).map((child, index) => {

@@ -172,7 +172,7 @@ class Blocksy_Customizer_Builder {
 		}
 
 		$paths_to_look_for_items = apply_filters(
-			'blocksy:header:items-paths',
+			'blocksy:' . $panel_type . ':items-paths',
 			[
 				get_template_directory() . '/inc/panel-builder/' . $panel_type
 			],

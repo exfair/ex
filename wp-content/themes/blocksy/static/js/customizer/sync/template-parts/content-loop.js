@@ -91,29 +91,36 @@ const renderEntries = prefix => {
 
 			if (component.id === 'excerpt') {
 				if (e.querySelector('.entry-excerpt')) {
-					let newExcerpt = e
-						.querySelector('.entry-excerpt')
-						.innerHTML.trim()
-						.replace(/\s/g, ' ')
-						.replace(
-							new RegExp(
-								`(([^\\s]+\\s\\s*){${
-									parseFloat(component.excerpt_length || 40) -
-									1
-								}})(.*)`
-							),
-							'$1'
-						)
+					if (
+						e
+							.querySelector('.entry-excerpt')
+							.innerHTML.indexOf('<') === -1
+					) {
+						let newExcerpt = e
+							.querySelector('.entry-excerpt')
+							.innerHTML.trim()
+							.replace(/\s/g, ' ')
+							.replace(
+								new RegExp(
+									`(([^\\s]+\\s\\s*){${
+										parseFloat(
+											component.excerpt_length || 40
+										) - 1
+									}})(.*)`
+								),
+								'$1'
+							)
 
-					e.querySelector(
-						'.entry-excerpt'
-					).innerHTML = `${newExcerpt.trim()}${
-						newExcerpt.trim().length ===
-						e.querySelector('.entry-excerpt').innerHTML.trim()
-							.length
-							? ''
-							: '…'
-					}`
+						e.querySelector(
+							'.entry-excerpt'
+						).innerHTML = `${newExcerpt.trim()}${
+							newExcerpt.trim().length ===
+							e.querySelector('.entry-excerpt').innerHTML.trim()
+								.length
+								? ''
+								: '…'
+						}`
+					}
 				}
 			}
 

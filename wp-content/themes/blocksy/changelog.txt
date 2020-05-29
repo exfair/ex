@@ -1,3 +1,8 @@
+1.7.16: 2020-05-29
+- Improvement: Better handle for mobile logo wrapper tag
+- Improvement: Entry excerpt sync
+- Fix: Account element dynamic styles
+
 1.7.15: 2020-05-28
 - New: Add responsive alignment options for page title content
 - New: Option to enable/disable coupon form on checkout page

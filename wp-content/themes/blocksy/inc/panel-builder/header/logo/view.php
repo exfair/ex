@@ -68,7 +68,9 @@ $tagline_class = 'site-description ' . blocksy_visibility_classes(
 $tag = 'span';
 
 if (is_home() || is_front_page()) {
-	$tag = 'h1';
+	if ($device !== 'mobile') {
+		$tag = 'h1';
+	}
 }
 
 if (blocksy_default_akg('site_title_custom_tag', $atts, 'default') === 'custom') {

@@ -1,7 +1,7 @@
 .ct-meta-box {
 
-	.ct-control[data-design="inline"],
-	.ct-controls-group[data-design="inline"] {
+	.ct-controls-group,
+	.ct-control[data-design="inline"] {
 		display: flex;
 		flex-wrap: wrap;
 		position: relative;
@@ -46,6 +46,21 @@
 	.ct-control[data-design="block"] {
 		> header {
 			margin-bottom: 10px;
+		}
+	}
+
+	.ct-controls-group {
+		.ct-control {
+			padding-left: 0;
+			padding-right: 0;
+
+			&:first-child {
+				padding-top: 0;
+			}
+
+			&:last-child {
+				padding-bottom: 0;
+			}
 		}
 	}
 

@@ -1,0 +1,324 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: News Box\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-18 07:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/template-tags.php:66 inc/template-tags.php:73
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: inc/bootstrap-navwalker.php:404
+msgid "Add a menu"
+msgstr ""
+
+#: functions.php:125
+msgid "Add footer widgets here."
+msgstr ""
+
+#: functions.php:116
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:134
+msgid ""
+"Add your image banner or google adsens code here. Image size should be width "
+"760px and height 90px. Use text widget for the add banner "
+msgstr ""
+
+#: inc/customizer.php:38
+msgid "All"
+msgstr ""
+
+#: inc/customizer.php:253
+msgid "Card view"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer.php:112
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Content text Color"
+msgstr ""
+
+#: template-parts/post-card.php:26
+msgid "Continue reading"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/post-content.php:26 template-parts/post-img.php:29
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Default view"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:103 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer.php:187
+msgid "Feature section"
+msgstr ""
+
+#: inc/customizer.php:231
+msgid "Feature section background color"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Footer text"
+msgstr ""
+
+#: functions.php:123
+msgid "Footer widget"
+msgstr ""
+
+#: template-parts/common/feature-post.php:47
+msgid "Full story"
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Header Background Color"
+msgstr ""
+
+#: functions.php:132
+msgid "Header banner"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Hide feature section"
+msgstr ""
+
+#: inc/customizer.php:267
+msgid ""
+"Html tag support the field. You can see full HTML result after save text."
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://nalam.awesomebootstrap.net"
+msgstr ""
+
+#: footer.php:35 inc/customizer.php:53
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: 404.php:27
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: header.php:112
+msgid "Latest News"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:83
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:170
+msgid "Link Hover Color"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:70
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. Name of the theme
+msgid "News Box"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"News Box is a smart WordPress news and magazine theme. News News Box is "
+"right choice for news paper and magazine website. You can create full "
+"feature news paper and magazine website by the News Box WordPress theme. "
+"News Box WordPress theme support custom header, feature image, color "
+"changing options, custom background, footer widget, font Awesome icons. So "
+"you can enjoy your news paper or magazine website with the WordPress news "
+"Box theme."
+msgstr ""
+
+#: inc/customizer.php:76
+msgid "News Box Options"
+msgstr ""
+
+#: index.php:50
+msgid "Next page"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Noor Alam"
+msgstr ""
+
+#. Author of the theme
+msgid "Noor alam"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: index.php:51
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/post-content.php:41
+#: template-parts/post-img.php:43
+msgid "Pages:"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: index.php:49
+msgid "Previous page"
+msgstr ""
+
+#: functions.php:53
+msgid "Primary"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: footer.php:38
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Proudly powered by WordPress"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. %s: search query.
+#: search.php:29
+#, php-format
+msgid "Search Results for: %s "
+msgstr ""
+
+#: inc/customizer.php:208
+msgid "Select Feature post category"
+msgstr ""
+
+#: inc/customizer.php:247
+msgid "Select news content view style"
+msgstr ""
+
+#: inc/customizer.php:192
+msgid "Show feature section"
+msgstr ""
+
+#: functions.php:114
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "The News Box theme options "
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:44
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Theme: News Box by"
+msgstr ""
+
+#: header.php:48
+msgid "Toggle Navigation"
+msgstr ""
+
+#: inc/customizer.php:209
+msgid ""
+"You may create an unique category for feature items then select the category "
+"form this list. If you category item empty then show latest post"
+msgstr ""

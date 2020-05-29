@@ -1,0 +1,21 @@
+#customize-controls #accordion-section-fasto_premium .accordion-section-title ,
+#customize-controls #accordion-section-fasto_premium .accordion-section-title:hover ,
+#customize-controls #accordion-section-fasto_premium .accordion-section-title:focus ,
+#customize-controls #accordion-section-fasto_premium.control-section:hover>.accordion-section-title{
+    color: #fff ;
+   background-color: #668c9e;
+	border-left: 4px solid #668c9e;
+}
+
+#customize-theme-controls #accordion-section-fasto_premium .accordion-section-title:after {
+    color: rgba(255,255,255,.5)
+}
+
+#sub-accordion-section-fasto_premium img{
+	border-radius: 5px;
+    border: solid 7px rgba(255,255,255,.6);
+}
+
+#sub-accordion-section-fasto_premium .customize-control-title{
+	font-size:16px
+}

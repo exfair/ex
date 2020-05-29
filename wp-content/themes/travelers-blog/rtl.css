@@ -1,0 +1,131 @@
+ul.header-social-links.pull-right {
+    float: left!important;
+}
+
+.header-top p{margin: 0 0 0 10px;}
+
+.header-social-links a:last-child {
+    padding-left: 0;
+}
+
+.logo.pull-left {
+    float: right!important;
+}
+
+ul#responsive-menu {
+    float: left!important;
+}
+
+.navbar-nav li a i{float: left;}
+
+.navbar-nav li a i.has_sub_menu_parent.fa.fa-angle-down{
+	left: inherit;
+	right: 5px;
+}
+
+.navbar-nav li{text-align: right;}
+
+.navbar-nav>li {
+    float: right;
+}
+
+.home_banner_text {
+    text-align: right;
+    left: inherit;
+    right: 0;
+    padding: 5px 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col-xs-4.list_image_wrapper {
+    float: right;
+}
+
+.navbar-default .navbar-nav>li>a.menu_custom_btn{margin-left: 0; margin-right: 15px;}
+
+.swiper-container-rtl .swiper-button-next.swiper-button-white:before{
+	right: inherit;
+}
+
+.col-sm-10.col-sm-offset-1.text-center.single-page-no-image {
+    margin-left: 0;
+    margin-right: 8.33%;
+}
+
+.cover-content-full{text-align: right;}
+
+.item-detail > p:first-child:first-letter{
+	font-size: 18px;
+	color: #555!important;
+	padding: 0;
+	float: none;
+}
+
+p.post-tags {
+    text-align: right;
+}
+
+ul.comment-item li .comment-header {
+    margin-right: 75px;
+    margin-left: 0;
+    padding: 0 15px 0 0;
+}
+
+.comment-time {
+    left: 20px;
+    right: inherit;
+}
+
+#comments ul {
+    padding: 0;
+}
+
+.comment-content {
+    padding-right: 95px;
+    padding-left: 0;
+}
+
+div#respond h3#reply-title small a{float: left;}
+
+ul.child-comments{margin-left: 0; margin-right: 30px;}
+
+.prognroll-bar {
+    left: inherit!important;
+    right: 0;
+}
+
+
+.widget ul {
+    padding: 0;
+}
+
+.sidebar-wrapper .section-title h3, #sidebar .widget h2.widget-title{text-align: right;}
+
+.header-search .search-form input.search-field, 
+.widget.widget_search .search-form input.search-field, 
+.page-content input.search-field{
+	padding: 11px 15px 10px 60px;
+}
+
+.search-form input#searchsubmit{left: 0; right: inherit;}
+
+.full-screen-search-box-wrap .search-form label:before{left: 3%; right: inherit;}
+
+.bizberg_default_page .single_page h3:after{left: inherit; right: 0;}
+
+#footer .copyright a{display: inherit;}
+
+#back-to-top a{padding:0 14px 0 0; }
+
+@media(max-width: 1100px){
+	.slicknav_btn{right: inherit; left: 15px;}
+}
+
+@media(max-width: 567px){
+	ul.header-social-links.pull-right{float: none!important; padding: 0; margin-top: 10px;}
+
+    .comment-content{padding-right: 0;}
+
+    ul.comment-item li .comment-header{margin-right: 0;}
+}

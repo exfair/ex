@@ -1,0 +1,93 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: News Box Free\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-24 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.4"
+
+#: template-parts/content-grid.php:10
+msgid " / "
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Default view"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Grid view"
+msgstr ""
+
+#: inc/customizer.php:33
+msgid "Home feature section"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Home feature section show or hide."
+msgstr ""
+
+#: header.php:113
+msgid "Latest"
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "List view"
+msgstr ""
+
+#. Name of the theme
+msgid "News Box Free"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"News Box free is an awesome masnroy grid free responsive pure WordPress blog,"
+" news and magazine theme. This is the child theme of News Box theme. News "
+"box free is very good for news, megazine and blog site with morden color "
+"touch to display your website very beautiful and good looking.  News box "
+"free is editable and super flexible new functionality. The theme has nice, "
+"beautiful and professional layouts. This theme is made for any search engine,"
+" SEO Compatible.  news box free is a totally responsive.  Html5 and css3 "
+"based coded.  It is the magazine and blog theme you case to use for the News,"
+" magazine and blog websites."
+msgstr ""
+
+#: index.php:65
+msgid "Next"
+msgstr ""
+
+#. Author of the theme
+msgid "Noor alam"
+msgstr ""
+
+#: index.php:66
+msgid "Page"
+msgstr ""
+
+#: index.php:64
+msgid "Previous"
+msgstr ""
+
+#: template-parts/content-grid.php:29
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Select news content view style"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:52
+msgid "Toggle Navigation"
+msgstr ""

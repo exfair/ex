@@ -18,6 +18,9 @@
  * @package WordPress
  */
 
+define('WP_HOME', $HOME = parse_url($_ENV["HOME"]); 
+define('WP_SITEURL', $SITEURL = parse_url($_ENV["SITEURL"]); 
+
 // ** DATABASE settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DB"]); 
 

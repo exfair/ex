@@ -19,7 +19,7 @@
  */
 
 // ** DATABASE settings - from Heroku Environment ** //
-$db = parse_url($_ENV["DB"]); 
+$db = parse_url($_ENV["CLEARDB_DATABASE_URL"]); 
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
